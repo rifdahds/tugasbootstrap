@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Old Standard TT' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Josefin Slab' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Ropa Sans' rel='stylesheet'>
+<style>
+body {
+  background-image: url("https://i.pinimg.com/564x/36/9c/b9/369cb9fd98b128f16345a9808a797462.jpg");
+}
+  
+.cute {
+  font-family: 'Abril Fatface';
+  text-align: center;
+  font-size: 100px;
+}
+
+.mew {
+  font-family: 'Old Standard TT';
+  text-align: center;
+  font-size: 30px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Josefin Slab';
+  font-size: 15px;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #87B4C1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Carter One';
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #EDF6F9;
+  padding: 20px;
+  font-family: 'Alatsi';
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: #C75353;
+}
+a:hover {
+  color: #EDDBDB;
+}
+a:active {
+  color: #9A0000;
+}
+
+.man {
+  font-family: 'Ropa Sans';
+  text-align: center;
+  font-size: 50px;
+}
+</style>
+</head>
+<body>
+
+<p class="mew"> You want to get to know me?!?!, ask me! </p>
+<h1 class="cute">CONTACT ME</h1>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Your Full Name</label>
+    <input type="text" id="fname" name="fullname" placeholder="Your full name...">
+
+    <label for="lname">Your Message</label>
+    <input type="text" id="ymessage" name="your message" placeholder="Your message..">
+
+    <label for="age">Age</label>
+    <select id="age" name="age">
+      <option value="15-20">15-20</option>
+      <option value="21-30">21-30</option>
+      <option value="31-50">31-50</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<p class="man"><b><a href="http://instagram.com/kendalljenner" target="_blank">Go Home</a></b></p>
+
+</body>
+</html>
